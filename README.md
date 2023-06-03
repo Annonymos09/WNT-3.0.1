@@ -54,4 +54,5 @@
 [18] = Windows optimization for low-end PCs
 
 [19] = Activate microsoft office (if it doesn't work download the sourche-code and run install64.bat
+
                                   after that you can activate office with the help of this tool)
