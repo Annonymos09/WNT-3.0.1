@@ -1,0 +1,62 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>right_consol</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <ApplicationIcon>Screenshot-2023-02-16-192315.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="setupsexe\**" />
+    <EmbeddedResource Remove="setupsexe\**" />
+    <None Remove="setupsexe\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="cases\deleate-all.bat" />
+    <None Remove="cases\install-all.bat" />
+    <None Remove="cases\install32.bat" />
+    <None Remove="cases\install64.bat" />
+    <None Remove="cases\office-2019-activate.bat" />
+    <None Remove="cases\opti.bat" />
+    <None Remove="office-2019-activate.bat" />
+    <None Remove="opti.bat" />
+    <None Remove="shutdown.bat" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="cases\install64.bat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="cases\opti.bat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="cases\office-2019-activate.bat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Screenshot-2023-02-16-192315.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ApplicationDefinition Include="shutdown.bat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </ApplicationDefinition>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="cases\install32.bat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="win-activate.txt">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
