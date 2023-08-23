@@ -33,6 +33,7 @@ namespace right_consol.materiels
                     string relativePath2 = @"cases\install64.bat";
                     string fullPath2 = System.IO.Path.Combine(currentDirectory2, relativePath2);
                     System.Diagnostics.Process.Start(fullPath2);
+                    Console.ReadLine();
 
                     Methodes.collordangarus();
                     Console.WriteLine(">>> Please enter the number to start the next programm <<<");
@@ -49,6 +50,7 @@ namespace right_consol.materiels
                     string relativePath1 = @"cases\office-2019-activate.bat";
                     string fullPath1 = System.IO.Path.Combine(currentDirectory1, relativePath1);
                     System.Diagnostics.Process.Start(fullPath1);
+                    Console.ReadLine();
 
                     Methodes.collordangarus();
                     Console.WriteLine(">>> Please enter the number to start the next programm <<<");
