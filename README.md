@@ -4,11 +4,11 @@
 
 [1] = License WNT
 
-[2] = What's my IP?
+[2] = What is my IP?
 
-[3] = IP Scan
+[3] = IP scan
 
-[4] = Ping and go to web interface
+[4] = Ping and go to the web interface
 
 [5] = Windows MRT
 
@@ -20,22 +20,22 @@
 
 [9] = Repair USB device
 
-[10] = Update your system
+[10] = Update system
 
 [11] = Update all programs
 
 [12] = Diskpart
 
-[13] = Download different program groups
+[13] = Download various program groups
 
-[14] = Deactivate/Activate Windows updates
+[14] = Disable/enable Windows updates
 
 [15] = Activate Windows
 
-[16] = Deactivate Windows Defender
+[16] = Disable Windows Defender
 
-[17] = Activate Windows Defender
+[17] = Enable Windows Defender
 
-[18] = Windows optimization for low-end PCs
+[18] = Windows optimization for low-end PCs (uninstall microsoft complytly) 
 
-[19] = Activate microsoft office-19
+[19] = Enable Microsoft Office-2021 (profesional plus)
