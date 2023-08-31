@@ -50,6 +50,7 @@ namespace right_consol.materiels
                     string relativePath1 = @"cases\office-2019-activate.bat";
                     string fullPath1 = System.IO.Path.Combine(currentDirectory1, relativePath1);
                     System.Diagnostics.Process.Start(fullPath1);
+                    Console.ReadKey();
                     Console.ReadLine();
 
                     Methodes.collordangarus();
